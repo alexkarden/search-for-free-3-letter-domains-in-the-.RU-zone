@@ -5,6 +5,7 @@ import aiosqlite
 import requests
 
 
+
 DATABASE_NAME = "base.db"
 LETTERS = "abcdefghijklmnopqrstuvwxyz0123456789"
 SLEEP_BETWEEN = 6  # секунд между проверками
@@ -80,3 +81,4 @@ if __name__ == "__main__":
         asyncio.run(main())
     except KeyboardInterrupt:
         logging.error("Exit")
+
